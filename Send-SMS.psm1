@@ -49,7 +49,7 @@ function loginSkebby {
 
 function Send-SMS {
   param(
-    [Object] $cred = @{},
+    [object] $cred = @{},
     [array] $recipient = @(),
     [string] $message = $null,
     [string] $sender = $null,
